@@ -62,6 +62,7 @@ This project builds a **Bitcoin Explorer**, a web application that tracks and vi
     ├── Dockerfile
     ├── package-lock.json
     └── package.json
+```
 
 ## Components
 
