@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.tableContainer {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  margin: 30px auto;
+  max-width: 95%;
+}
+
+h2, h3 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* Table Styles */
+.table, .recentBlocksTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.th, .td, .recentBlocksTable th, .recentBlocksTable td {
+  text-align: left;
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.th, .recentBlocksTable th {
+  background-color: #2217fa;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.td, .recentBlocksTable td {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.table tr:hover .td, .recentBlocksTable tr:hover td {
+  background-color: #f5f5f5;
+}
+
+/* Recent Blocks Table Specific Styles */
+.recentBlocksInfo {
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.recentBlocksTable {
+  font-size: 14px;
+}
+
+.recentBlocksTable th {
+  background-color: #2217fa;
+}
+
+.recentBlocksTable td {
+  color: #555;
+}
+
+/* Links */
+.addressLink {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.addressLink:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Buttons */
+.searchButton {
+  background-color: #f7931a;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #e87f0e;
+}
+
+/* Date Picker */
+.datePicker {
+  padding: 10px;
+  border: 2px solid #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.chartContainer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color:#f9f9f9;
+  border-radius :8px;
+}
+
+.chartContainer h3{
+ margin-bottom :15px;
+ color:#333;
+}
