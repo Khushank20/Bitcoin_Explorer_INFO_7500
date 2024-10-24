@@ -4,7 +4,7 @@ const httpLink = new HttpLink({
   uri: 'https://graphql.bitquery.io',
   headers: {
     'Content-Type': 'application/json',
-    'X-API-KEY': 'BQYPNot15kfMBbz2G8pS7gNoGwlOt9vW'
+    'X-API-KEY': 'BQYw2ocQIHducYUJIL5Xu1i32edHtf0N'
     // If you need an authorization token, include it here
     // 'Authorization': `Bearer YOUR_TOKEN_HERE`
   },
