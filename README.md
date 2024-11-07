@@ -1,4 +1,4 @@
-# Bitcoin Explorer
+# Bitcoin Explorer - Test
 
 This project builds a **Bitcoin Explorer**, a web application that tracks and visualizes data derived from both **on-chain** and **off-chain** metrics, using real-time data ingestion and a responsive user interface.
 
